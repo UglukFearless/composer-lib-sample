@@ -1,0 +1,21 @@
+{
+    "name": "adanilov/lib-sample",
+    "description": "Sample for test creating own lib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "adanilov",
+            "email": "a.danilov@aurigma.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "adanilov\\HelloComposer\\": "src/"
+        }
+    }
+}
