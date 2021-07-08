@@ -6,4 +6,6 @@ use adanilov\HelloComposer\HelloComposer;
 
 HelloComposer::sayHi();
 
+HelloComposer::sayBye();
+
 ?>

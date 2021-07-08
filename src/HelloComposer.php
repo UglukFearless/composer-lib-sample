@@ -8,5 +8,9 @@ class HelloComposer {
         echo "Hello Composer" . PHP_EOL;
     }
 
+    public static function sayBye() {
+        echo "Bye Composer" . PHP_EOL;
+    }
+
 }
 ?>
